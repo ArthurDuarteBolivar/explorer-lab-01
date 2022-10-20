@@ -19,6 +19,19 @@ form label {
   color: #e1e1e6;
 }
 
+.buttons{
+  color: white;
+  margin: 10px;
+  
+}
+
+.buttons button{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
 form input {
   background: #121214;
   border: 1px solid #323238;

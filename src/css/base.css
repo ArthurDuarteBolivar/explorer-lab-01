@@ -16,17 +16,29 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+@keyframes colors {
+  0%{
+    ackground-position-x: 0%;
+  }
+  50%{
+    ackground-position-x: 50%;
+  }
+  100%{
+    background-position-x: 100%;
+  }
+}
 
-body {
+body{
+  animation: colors 15s infinite ease alternate;
+  background-image: linear-gradient(to left, white, gray, black);
+  background-size: 300% 100%;
   font-size: 1.6rem;
-  background: #121214;
 
   display: flex;
   place-items: center;
 
   min-height: 100vh;
 }
-
 .flex {
   display: flex;
 }
